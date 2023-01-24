@@ -24,7 +24,8 @@ class Transporte implements TransporteInterfaz {
     }
 }
 
-
+$bici = new Transporte(2, 1);
+echo $bici->getInfo();
 
 
 include 'includes/footer.php';
